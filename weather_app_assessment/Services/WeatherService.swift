@@ -17,10 +17,8 @@ class WeatherService
     func fetchWeather(for city: String, completion: @escaping (Result<WeatherResponse, Error>) -> Void) {
         let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String
         
-        print("Api key being used: \(apiKey ?? "88986e3b1dd74ae25d8cf033a423c23a")")
-        let urlString = "https://api.openweathermap.org/data/2.5/weather?q=\(city)&appid=\(apiKey ?? "88986e3b1dd74ae25d8cf033a423c23a")&units=metric"
+        let urlString = "https://api.openweathermap.org/data/2.5/weather?q=\(city)&appid=\(apiKey)&units=metric"
         
-        print("url sent: \(urlString)")
         
         guard let url = URL(string: urlString) else {return}
         
