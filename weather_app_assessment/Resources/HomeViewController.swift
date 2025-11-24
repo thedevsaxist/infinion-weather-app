@@ -20,7 +20,7 @@ class HomeViewController: UIViewController {
             storage: CityStorage()
         )
         
-        cityTextField.text = viewModel.getSaveCity()
+        cityTextField.text = viewModel?.getSaveCity() ?? ""
         
         viewModel.weatherLoaded = { [weak self] weather in
             self?.performSegue(withIdentifier: "detailSegue", sender: weather)

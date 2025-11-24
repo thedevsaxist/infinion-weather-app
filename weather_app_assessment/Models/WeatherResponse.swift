@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct WeatherResponse: Codable {
-    struct Weather: Codable {
+struct WeatherResponse: Codable, Equatable {
+    struct Weather: Codable, Equatable {
         let description: String
     }
-    struct Main: Codable {
+    struct Main: Codable, Equatable {
         let temp: Double
     }
     

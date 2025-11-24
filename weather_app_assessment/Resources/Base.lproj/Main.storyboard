@@ -11,7 +11,7 @@
         <!--Home View Controller-->
         <scene sceneID="Cmg-GC-7pa">
             <objects>
-                <viewController id="2rw-q9-6wW" customClass="HomeViewController" customModule="weather_app_assessment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2rw-q9-6wW" customClass="HomeViewController" customModule="weather_app_assessment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IMy-Qg-s2s">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
