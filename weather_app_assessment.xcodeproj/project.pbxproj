@@ -530,6 +530,7 @@
 				DEVELOPMENT_TEAM = WUR7PA7888;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = weather_app_assessment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather App";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -560,6 +561,7 @@
 				DEVELOPMENT_TEAM = WUR7PA7888;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = weather_app_assessment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather App";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
