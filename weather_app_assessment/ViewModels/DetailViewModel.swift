@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class DetailViewModel {
+    let weather: WeatherResponse
+    init(weather: WeatherResponse) {
+        self.weather = weather
+    }
+}

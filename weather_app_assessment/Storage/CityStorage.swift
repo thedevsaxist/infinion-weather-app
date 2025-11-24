@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class CityStorage {
+     private let key = "favorite-city"
+    
+    func save(city: String){
+        UserDefaults.standard.set(city, forKey: key)
+    }
+    
+    func get() -> String {
+        UserDefaults.standard.string(forKey: key) ?? ""
+    }
+}
